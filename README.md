@@ -1,5 +1,5 @@
 # Guide-to-treat-Missing-values
-A complete guide to treat missing values
+A complete guide to treat missing values/Null Values
 
 1. Delete Rows with Missing Values
 One way of handling missing values is the deletion of the rows or columns having null values. If any columns have more than half of the values as null then you can drop the entire column. In the same way, rows can also be dropped if having one or more columns values as null. Before using this method one thing we have to keep in mind is that we should not be losing information. Because if the information we are deleting is contributing to the output value then we should not use this method because this will affect our output.
